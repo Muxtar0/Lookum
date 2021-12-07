@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="44.5" height="41.5" viewBox="0 0 44.5 41.5">
+  <g id="shopping-cart" transform="translate(0.5)">
+    <path id="Path_363" data-name="Path 363" d="M352.327,385.148a3.455,3.455,0,1,0,3.455,3.455A3.455,3.455,0,0,0,352.327,385.148Zm0,5.363a1.908,1.908,0,1,1,1.908-1.908,1.908,1.908,0,0,1-1.908,1.908Zm0,0" transform="translate(-328.087 -351.058)" fill="#497d22" stroke="#497d22" stroke-width="1"/>
+    <path id="Path_364" data-name="Path 364" d="M33.25,2.377H6.647L6.179.5a3.685,3.685,0,0,0-3.6-2.786H.75A.745.745,0,0,0,0-1.549a.745.745,0,0,0,.75.741H2.575A2.188,2.188,0,0,1,4.723.844l3.64,14.687a3.674,3.674,0,0,0,3.6,2.771H27.538a3.669,3.669,0,0,0,3.617-2.832l2.826-12.2a.714.714,0,0,0-.144-.618.745.745,0,0,0-.587-.27ZM29.694,15.144a2.176,2.176,0,0,1-2.155,1.677H11.967A2.182,2.182,0,0,1,9.82,15.177L7.013,3.858h25.3Zm0,0" transform="translate(0 13.29)" fill="#497d22" stroke="#497d22" stroke-width="1"/>
+    <path id="Path_365" data-name="Path 365" d="M183.432,385.148a3.455,3.455,0,1,0,3.455,3.455A3.455,3.455,0,0,0,183.432,385.148Zm0,5.363a1.908,1.908,0,1,1,1.908-1.908,1.908,1.908,0,0,1-1.908,1.908Zm0,0" transform="translate(-169.254 -351.058)" fill="#497d22" stroke="#497d22" stroke-width="1"/>
+    <g id="Group_260" data-name="Group 260" transform="translate(31)">
+      <circle id="Ellipse_33" data-name="Ellipse 33" cx="6.5" cy="6.5" r="6.5" transform="translate(0 1)" fill="#f39200"/>
+      <text id="_1" data-name="1" transform="translate(3.8 11)" fill="#fff" font-size="12" font-family="Raleway-SemiBold, Raleway" font-weight="600"><tspan x="0" y="0">1</tspan></text>
+    </g>
+  </g>
+</svg>

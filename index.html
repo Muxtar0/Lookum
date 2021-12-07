@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Lokum</title>
+        <link rel="stylesheet" href="CSS/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+        <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+        <!-- Demo styles -->
+        <style>
+            body {
+              background: #fff;
+              font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+              font-size: 14px;
+              color: #000;
+              margin: 0;
+              padding: 0;
+            }
+        
+            .swiper-container {
+              width: 100%;
+              padding-top: 50px;
+              padding-bottom: 50px;
+            }
+        
+            .swiper-slide {
+              background-position: center;
+              background-size: cover;
+              width: 300px;
+              height: 350px;
+        
+            }
+          </style>
+    </head>
+    <body>
+        <div id="container">
+            <div class="header1">
+                
+                
+                <h3 id="kargoucretsiz">100 TL üzeri ücretsiz kargo</h3>
+                
+
+                <div id="hakkimizda">
+                    <ul>
+                        <li><a href="#">Hakkimizda</a></li>
+                        <li><a href="#">Iletisim</a></li>     <a href="#"><i class="fab fa-facebook"></i></a>  <a href="#"><i class="fab fa-instagram"></i></a>  <a href="#"><i class="fab fa-twitter"></i></a>
+                    </ul>
+                </div>
+
+            </div>
+            <div id="header2">
+                <div id="logo">
+                    <img src="img/logo/logo.png" alt="">
+                </div>
+                <div id="input">
+                    <input type="text" placeholder="      Search">  <a href="#"><i class="fas fa-search"></i></a>
+                </div>
+                <div id="images">
+                    <a href="#"><img src="img/icon/user.svg" alt=""></a>
+                    <a href="#" id="i"><i class="fas fa-shopping-cart"></i>
+                       
+                    </a>
+                </div>
+                <i ></i>
+            </div>
+            <div id="urunler">
+                <ul>
+                    <li id="anasayfa"><a href="#">Ana Sayfa</a></li>
+                    <li><a href="#">Hakkimizda</a></li>
+                    <li id="urunlerli"><a href="#">Urunler</a> <i class="fas fa-angle-down"></i>
+                        <ul>
+                            <li><a href="#">Urun 1</a></li>
+                            <li><a href="#">Urun 2</a></li>
+                            <li><a href="#">Urun 3</a></li>
+                            <li><a href="#">Urun 4</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Kuru Yemis</a></li>
+                    <li id="ustlokum"><a href="#">Lokum Cesitleri</a> <i class="fas fa-angle-down"></i>
+                        <ul id="altlokum">
+                            <li><a href="#">Lokum 1</a></li>
+                            <li><a href="#">Lokum 2</a></li>
+                            <li><a href="#">Lokum 3</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Baharat</a></li>
+                </ul>
+            </div>
+            <div id="mainpicture">
+                <img src="slider.jpg"  alt="">
+                <h1> Lorem ipsum dolor sit </h1>
+                <h3>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut <br>
+                    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in <br> voluptate velit esse cillum dolore eu fugiat nulla pariatur. </h3>
+                    <div id="imagebtn">
+                        <a href="#">Lorem Ipsum</a>
+                    </div>
+                
+            </div>
+            <div id="explanation">
+                <ul>
+                    <li>
+                        <img src="img/icon/delivery.png" alt=""><h3>HIZLI KARGO</h3>
+                        <p>Ut enim ad minim veniam,<br>quis nostrud exercitation</p>
+                        
+                    </li>
+                    <li>
+                        <img src="img/icon/security.png" alt=""><h3>GÜVENLİ ÖDEME</h3>
+                        <p>Ut enim ad minim veniam,<br>quis nostrud exercitation</p>
+                    </li>
+                    <li>
+                        <img src="img/icon/box.png" alt=""><h3>KALİTELİ ÜRÜNLER</h3>
+                        <p>Ut enim ad minim veniam,<br>quis nostrud exercitation</p>
+                    </li>
+                    <li>
+                        <img src="img/icon/like.png" alt=""><h3>MEMNUN MÜŞTERİLER</h3>
+                        <p>Ut enim ad minim veniam,<br>quis nostrud exercitation</p>
+                    </li>
+                </ul>
+            </div>
+            <div id="bottompicture">
+                <ul>
+                    <li id="img1"><img src="img/Content 1@2x.jpg" alt=""></li>
+                    <li id="img2"><img src="img/Content 2@2x.jpg" alt=""></li>
+                    <li id="img3"><img src="img/bottomimgf/Content 3@2x.jpg" alt=""></li>
+                </ul>
+
+            </div>
+            <div id="bottomsliderword">
+                <h2>Cok Satanlar</h2>
+            </div>
+             <!-- Swiper -->
+            <div class="swiper-container">
+            <div class="swiper-wrapper">
+            <div class="swiper-slide" style="background-image:url(./sliderimg/Rectangle\ 35.png)"> 
+                <img src="sliderimg2/Showcase.png" alt="">    
+                <h3 class="kuru">Karışık Kuruyemiş 250gr</h3> 
+                <h4 class="tl">
+                    19,99 TL
+                    
+
+                </h4> 
+                <span class="del">29,99 TL</span>
+                <div class="sepet">
+                    <a href="#"><img src="sliderimg3/Button.png" alt=""></a>
+                </div>
+                
+            
+            </div>
+            <div class="swiper-slide" style="background-image:url(./sliderimg/Rectangle\ 35.png)">
+                <img src="sliderimg2/Showcase.png" alt="">    
+                <h3 class="kuru">Karışık Kuruyemiş 250gr</h3> 
+                <h4 class="tl">
+                    19,99 TL
+                    
+
+                </h4> 
+                <span class="del">29,99 TL</span>
+                <div class="sepet">
+                    <a href="#"><img src="sliderimg3/Button.png" alt=""></a>
+                </div>
+            </div>
+            <div class="swiper-slide" style="background-image:url(./sliderimg/Rectangle\ 35.png)">
+                <img src="sliderimg2/Showcase.png" alt="">    
+                <h3 class="kuru">Karışık Kuruyemiş 250gr</h3> 
+                <h4 class="tl">
+                    19,99 TL
+                    
+
+                </h4> 
+                <span class="del">29,99 TL</span>
+                <div class="sepet">
+                    <a href="#"><img src="sliderimg3/Button.png" alt=""></a>
+                </div>
+            </div>
+            <div class="swiper-slide" style="background-image:url(./sliderimg/Rectangle\ 35.png)">
+                <img src="sliderimg2/Showcase.png" alt="">    
+                <h3 class="kuru">Karışık Kuruyemiş 250gr</h3> 
+                <h4 class="tl">
+                    19,99 TL
+                    
+
+                </h4> 
+                <span class="del">29,99 TL</span>
+                <div class="sepet">
+                    <a href="#"><img src="sliderimg3/Button.png" alt=""></a>
+                </div>
+            </div>
+            <div class="swiper-slide" style="background-image:url(./sliderimg/Rectangle\ 35.png)">
+                <img src="sliderimg2/Showcase.png" alt="">    
+                <h3 class="kuru">Karışık Kuruyemiş 250gr</h3> 
+                <h4 class="tl">
+                    19,99 TL
+                    
+
+                </h4> 
+                <span class="del">29,99 TL</span>
+                <div class="sepet">
+                    <a href="#"><img src="sliderimg3/Button.png" alt=""></a>
+                </div>
+            </div>
+            <div class="swiper-slide" style="background-image:url(./sliderimg/Rectangle\ 35.png)">
+                <img src="sliderimg2/Showcase.png" alt="">    
+                <h3 class="kuru">Karışık Kuruyemiş 250gr</h3> 
+                <h4 class="tl">
+                    19,99 TL
+                    
+
+                </h4> 
+                <span class="del">29,99 TL</span>
+                <div class="sepet">
+                    <a href="#"><img src="sliderimg3/Button.png" alt=""></a>
+                </div>
+            </div>
+            <div class="swiper-slide" style="background-image:url(./sliderimg/Rectangle\ 35.png)">
+                <img src="sliderimg2/Showcase.png" alt="">    
+                <h3 class="kuru">Karışık Kuruyemiş 250gr</h3> 
+                <h4 class="tl">
+                    19,99 TL
+                    
+
+                </h4> 
+                <span class="del">29,99 TL</span>
+                <div class="sepet">
+                    <a href="#"><img src="sliderimg3/Button.png" alt=""></a>
+                </div>
+            </div>
+            <div class="swiper-slide" style="background-image:url(./sliderimg/Rectangle\ 35.png)">
+                <img src="sliderimg2/Showcase.png" alt="">    
+                <h3 class="kuru">Karışık Kuruyemiş 250gr</h3> 
+                <h4 class="tl">
+                    19,99 TL
+                    
+
+                </h4> 
+                <span class="del">29,99 TL</span>
+                <div class="sepet">
+                    <a href="#"><img src="sliderimg3/Button.png" alt=""></a>
+                </div>
+            </div>
+            <div class="swiper-slide" style="background-image:url(./sliderimg/Rectangle\ 35.png)">
+                <img src="sliderimg2/Showcase.png" alt="">    
+                <h3 class="kuru">Karışık Kuruyemiş 250gr</h3> 
+                <h4 class="tl">
+                    19,99 TL
+                    
+
+                </h4> 
+                <span class="del">29,99 TL</span>
+                <div class="sepet">
+                    <a href="#"><img src="sliderimg3/Button.png" alt=""></a>
+                </div>
+            </div>
+            <div class="swiper-slide" style="background-image:url(./sliderimg/Rectangle\ 35.png)">
+                <img src="sliderimg2/Showcase.png" alt="">    
+                <h3 class="kuru">Karışık Kuruyemiş 250gr</h3> 
+                <h4 class="tl">
+                    19,99 TL
+                    
+
+                </h4> 
+                <span class="del">29,99 TL</span> 
+                <div class="sepet">
+                    <a href="#"><img src="sliderimg3/Button.png" alt=""></a>
+                </div>
+            </div>
+            </div>
+            <!-- Add Pagination -->
+            <div class="swiper-pagination"></div>
+            </div>
+
+            <!-- Swiper JS -->
+            <script src="../package/swiper-bundle.min.js"></script>
+            </div>
+           
+            </div>
+            <div class="reklam">
+                <ul>
+                    <li id="reklam1"><a href="#"><img src="img/reklam1/Content 1.png" alt=""></a></li>
+                    <li id="reklam2"><a href="#"><img src="img/reklam2/Content 2.png" alt=""></a></li>
+                </ul>
+            </div>
+            <div id="secondmenu">
+                <ul>
+                    <li id="secondmenufirstli"><a href="#">Kuruyemiş</a></li>
+                    <li><a href="#">Kuru Meyve</a></li>
+                    <li><a href="#">Baharat</a></li>
+                    <li><a href="#">Doğal Ürünler</a></li>
+                    <li><a href="#">Yöresel Ürünler</a></li>
+                    
+                </ul>
+            </div>
+             <!-- Swiper -->
+             <div class="swiper-container">
+                <div class="swiper-wrapper">
+                <div class="swiper-slide" style="background-image:url(./sliderimg/Rectangle\ 35.png)"> 
+                    <img src="sliderimg2/Showcase.png" alt="">    
+                    <h3 class="kuru">Karışık Kuruyemiş 250gr</h3> 
+                    <h4 class="tl">
+                        19,99 TL
+                        
+    
+                    </h4> 
+                    <span class="del">29,99 TL</span>
+                    <div class="sepet">
+                        <a href="#"><img src="sliderimg3/Button.png" alt=""></a>
+                    </div>
+                    
+                
+                </div>
+                <div class="swiper-slide" style="background-image:url(./sliderimg/Rectangle\ 35.png)">
+                    <img src="sliderimg2/Showcase.png" alt="">    
+                    <h3 class="kuru">Karışık Kuruyemiş 250gr</h3> 
+                    <h4 class="tl">
+                        19,99 TL
+                        
+    
+                    </h4> 
+                    <span class="del">29,99 TL</span>
+                    <div class="sepet">
+                        <a href="#"><img src="sliderimg3/Button.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="swiper-slide" style="background-image:url(./sliderimg/Rectangle\ 35.png)">
+                    <img src="sliderimg2/Showcase.png" alt="">    
+                    <h3 class="kuru">Karışık Kuruyemiş 250gr</h3> 
+                    <h4 class="tl">
+                        19,99 TL
+                        
+    
+                    </h4> 
+                    <span class="del">29,99 TL</span>
+                    <div class="sepet">
+                        <a href="#"><img src="sliderimg3/Button.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="swiper-slide" style="background-image:url(./sliderimg/Rectangle\ 35.png)">
+                    <img src="sliderimg2/Showcase.png" alt="">    
+                    <h3 class="kuru">Karışık Kuruyemiş 250gr</h3> 
+                    <h4 class="tl">
+                        19,99 TL
+                        
+    
+                    </h4> 
+                    <span class="del">29,99 TL</span>
+                    <div class="sepet">
+                        <a href="#"><img src="sliderimg3/Button.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="swiper-slide" style="background-image:url(./sliderimg/Rectangle\ 35.png)">
+                    <img src="sliderimg2/Showcase.png" alt="">    
+                    <h3 class="kuru">Karışık Kuruyemiş 250gr</h3> 
+                    <h4 class="tl">
+                        19,99 TL
+                        
+    
+                    </h4> 
+                    <span class="del">29,99 TL</span>
+                    <div class="sepet">
+                        <a href="#"><img src="sliderimg3/Button.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="swiper-slide" style="background-image:url(./sliderimg/Rectangle\ 35.png)">
+                    <img src="sliderimg2/Showcase.png" alt="">    
+                    <h3 class="kuru">Karışık Kuruyemiş 250gr</h3> 
+                    <h4 class="tl">
+                        19,99 TL
+                        
+    
+                    </h4> 
+                    <span class="del">29,99 TL</span>
+                    <div class="sepet">
+                        <a href="#"><img src="sliderimg3/Button.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="swiper-slide" style="background-image:url(./sliderimg/Rectangle\ 35.png)">
+                    <img src="sliderimg2/Showcase.png" alt="">    
+                    <h3 class="kuru">Karışık Kuruyemiş 250gr</h3> 
+                    <h4 class="tl">
+                        19,99 TL
+                        
+    
+                    </h4> 
+                    <span class="del">29,99 TL</span>
+                    <div class="sepet">
+                        <a href="#"><img src="sliderimg3/Button.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="swiper-slide" style="background-image:url(./sliderimg/Rectangle\ 35.png)">
+                    <img src="sliderimg2/Showcase.png" alt="">    
+                    <h3 class="kuru">Karışık Kuruyemiş 250gr</h3> 
+                    <h4 class="tl">
+                        19,99 TL
+                        
+    
+                    </h4> 
+                    <span class="del">29,99 TL</span>
+                    <div class="sepet">
+                        <a href="#"><img src="sliderimg3/Button.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="swiper-slide" style="background-image:url(./sliderimg/Rectangle\ 35.png)">
+                    <img src="sliderimg2/Showcase.png" alt="">    
+                    <h3 class="kuru">Karışık Kuruyemiş 250gr</h3> 
+                    <h4 class="tl">
+                        19,99 TL
+                        
+    
+                    </h4> 
+                    <span class="del">29,99 TL</span>
+                    <div class="sepet">
+                        <a href="#"><img src="sliderimg3/Button.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="swiper-slide" style="background-image:url(./sliderimg/Rectangle\ 35.png)">
+                    <img src="sliderimg2/Showcase.png" alt="">    
+                    <h3 class="kuru">Karışık Kuruyemiş 250gr</h3> 
+                    <h4 class="tl">
+                        19,99 TL
+                        
+    
+                    </h4> 
+                    <span class="del">29,99 TL</span> 
+                    <div class="sepet">
+                        <a href="#"><img src="sliderimg3/Button.png" alt=""></a>
+                    </div>
+                </div>
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+                </div>
+    
+                <!-- Swiper JS -->
+                <script src="../package/swiper-bundle.min.js"></script>
+                </div>
+               
+                </div>
+                <div id="endadd">
+                    <ul>
+                        <li id="endfirstli"><a href="#">Son Eklenenler</a></li>
+                        <li id="endsecondli">
+                            <div>
+                                <a href="#">Tümünü Gör</a>
+                            </div>
+                        </li>
+                    </ul>
+
+                </div>
+                <div id="endaddimg">
+                    <ul>
+                        <li>
+                            <div>
+                            <img class="img1" src="img/soneklenenler/Rectangle 43.png" alt="">
+                            <img class="img2" src="img/soneklenenler/image.png" alt="">
+                            </div>
+                            <p>Boz İç Antep Fıstığı Toz 100gr </p>
+                            <h4 class="tl1">
+                                19,99 TL
+                                
+            
+                            </h4> 
+                            <span class="del2">29,99 TL</span> 
+                            <div>
+                                <a href="#"><img class="btn" src="./sliderimg3/Button.png" alt=""></a>
+                            </div>
+
+                        </li>
+                        <li>
+                            <div>
+                            <img class="img1" src="img/soneklenenler/Rectangle 43.png" alt="">
+                            <img class="img2" src="img/soneklenenler/image.png" alt="">
+                            </div>
+                            <p>Boz İç Antep Fıstığı Toz 100gr </p>
+                            <h4 class="tl1">
+                                19,99 TL
+                                
+            
+                            </h4> 
+                            <span class="del2">29,99 TL</span> 
+                            <div>
+                                <a href="#"><img class="btn" src="./sliderimg3/Button.png" alt=""></a>
+                            </div>
+
+                        </li>
+                        <li>
+                            <div>
+                            <img class="img1" src="img/soneklenenler/Rectangle 43.png" alt="">
+                            <img class="img2" src="img/soneklenenler/image.png" alt="">
+                            </div>
+                            <p>Boz İç Antep Fıstığı Toz 100gr </p>
+                            <h4 class="tl1">
+                                19,99 TL
+                                
+            
+                            </h4> 
+                            <span class="del2">29,99 TL</span> 
+                            <div>
+                                <a href="#"><img class="btn" src="./sliderimg3/Button.png" alt=""></a>
+                            </div>
+
+                        </li>
+
+                    </ul>
+                </div>
+                <div id="endreklam">
+                    <div id="reklam1">
+                        <img src="img/endreklam1/Content 1.png" alt="">
+                    </div>
+                    <div id="reklam2">
+                        <img src="img/endreklam2/Content 2.png" alt="">
+                    </div>
+                    <div id="reklam3">
+                        <img src="img/endreklam3/Content 3.png" alt="">
+                    </div>
+                    <div id="reklam4">
+                        <img src="img/endreklam4/Content 4.png" alt="">
+                    </div>
+                    
+                        
+                    
+                </div>
+                <div id="footerfirst">
+                    <h3>Kampanya ve güncellemelerden <br>
+                    haberdar olun!</h3>
+                    
+                    <input type="text" placeholder="    E-Mail adresinizi yazınız.." >
+                     <button type="submit" >Gonder</button>
+                     <div id="icon">
+                        <a href="#"><img src="img/footerfacebookimg/facebook@2x.png" alt=""></a>
+                        <a href="https://www.instagram.com/asiman__alizade/" target="_blank"><img src="img/footerimstagramimg/instagram@2x.png" alt="" ></a>
+                        <a href="#"><img src="img/footerimstagramimg/twitter@2x.png" alt=""></a>         
+                     </div>
+                </div>
+                <div id="footersecond">
+                    <div id="bor">
+                        <div>
+                            <h1>LOOKUM</h1>
+                        </div>
+                        <div id="telephone">
+                            <a href="#"><img src="img/tlephoneimg/Telephone.png" alt=""></a>
+                            
+                        </div>
+                        <div id="mail">
+                            <a href="#"><img src="img/mailimg/mail.png" alt=""></a>
+
+
+                        </div>
+                        <div id="ul">
+                            <ul>
+                                <li><h3>KURUMSAL</h3>
+                                    <ul>
+                                        <li><a href="#">Anasayfa</a></li>
+                                        <li><a href="#">Hakkımızda</a></li>
+                                        <li><a href="#">Ürünler</a></li>
+                                        <li><a href="#">Galeri</a></li>
+                                        <li><a href="#">Yöresel</a></li>
+                                        
+                                    </ul>
+                                </li>
+                            </ul>
+                            <ul>
+                                <li><h3>ALIŞVERİŞ</h3>
+                                    <ul>
+                                        <li><a href="#">Lorem ipsum</a></li>
+                                        <li><a href="#">Lorem ipsum</a></li>
+                                        <li><a href="#">Lorem ipsum</a></li>
+                                        <li><a href="#">Lorem ipsum</a></li>
+                                        <li><a href="#">Lorem ipsum</a></li>
+                                        
+                                    </ul>
+                                </li>
+                            </ul>
+                            <ul>
+                                <li><h3>ÜRÜNLER</h3>
+                                    <ul>
+                                        <li><a href="#">Haberler</a></li>
+                                        <li><a href="#">Galeri</a></li>
+                                        <li><a href="#">Sıkça Sorulanlar</a></li>
+                                        <li><a href="#">Destek</a></li>
+                                        <li><a href="#">Lorem ipsum</a></li>
+                                        
+                                    </ul>
+                                </li>
+                            </ul>
+                            <ul>
+                                <li><h3>ÜRÜNLER</h3>
+                                    <ul>
+                                        <li><a href="#">Haberler</a></li>
+                                        <li><a href="#">Galeri</a></li>
+                                        <li><a href="#">Sıkça Sorulanlar</a></li>
+                                        <li><a href="#">Destek</a></li>
+                                        <li><a href="#">Lorem ipsum</a></li>
+                                        
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                        <div id="cart">
+                            <ul>
+                                <li><img src="img/cart1/Mastercard@2x.png" alt=""></li>
+                                <li><img src="img/cart1/Group 356@2x.png" alt=""></li>
+                                <li><img src="img/cart1/Surface@2x.png" alt=""></li>
+                                <li><img src="img/cart1/American Express@2x.png" alt=""></li>
+                                <li><img src="img/cart1/Group 347@2x.png" alt=""></li>
+                                <li><img src="img/cart1/Garanti@2x.png" alt=""></li>
+                                <li><img src="img/cart1/Rapidssl@2x.png" alt=""></li>
+                            </ul>
+                        </div>
+
+                    </div>
+                   
+                </div>
+
+           
+
+        </div>
+        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+        <script>
+            var swiper = new Swiper('.swiper-container', {
+              effect: 'coverflow',
+              grabCursor: true,
+              centeredSlides: true,
+              slidesPerView: 'auto',
+              coverflowEffect: {
+                rotate: 50,
+                stretch: 0,
+                depth: 100,
+                modifier: 1,
+                slideShadows: true,
+              },
+              pagination: {
+                el: '.swiper-pagination',
+              },
+            });
+          </script>
+    </body>
+</html>
